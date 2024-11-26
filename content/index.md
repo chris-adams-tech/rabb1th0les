@@ -10,7 +10,7 @@ cssclasses: []
 ---
  _     _     _ _   _      ___  _           
 
-Hi my name is Chris Adams. This is my website of cyber and tech related subjects. Created with Obsidian and hosted via ~~GitHub~~ Cloudflare Pages.
+Hi my name is Chris Adams. This is my website of cyber and tech related subjects. Created with Obsidian and hosted via ~~GitHub~~ Cloudflare Pages. It's easy to get lost here. If you do there is navigation back here, `Home` and on the left side for site wide navigation. The right side will have a table of contents for within the page. Additionally, everything is searchable via tags. 
 
 Hope you enjoy what you find here. ✌️
 
@@ -22,8 +22,7 @@ Hope you enjoy what you find here. ✌️
 The theme was built with Obsidian Quartz and huge shoutout to the creator, https://github.com/jackyzha0, for putting this together. It uses `node.js` and `npm` to build the static website. He made it so easy to implement and customize to my own needs.
 
 
-Check out the about pages for more information about myself and this project. \
-[[About Me]] | [[Build for my website]]
+Check out the about pages for more information about myself and this project. 
 
 
 > [!Important] New HTB Writeup on YARA
@@ -39,10 +38,10 @@ Check out the about pages for more information about myself and this project. \
 
 ### HTB Detection Series
 
-[[Detecting Golden Ticket attacks]]
-[[Detecting Kerberoasting & AS-REProasting]]
-[[Detecting Pass-the-Hash]]
-[[Detecting Password Spraying]]
+[[Detecting Golden Ticket attacks]] \
+[[Detecting Kerberoasting & AS-REProasting]] \
+[[Detecting Pass-the-Hash]] \
+[[Detecting Password Spraying]] \
 [[Detecting Responder]]
  
 There are so many interesting use case of AI...one that I have been exploring as I have been preparing for interviews, is using it to generate cyber scenarios so I can review the thought process of an investigation to build muscle memory of actions that need to be taken during an investigation. This can help tremendously to build the muscle memory prior to being in the high-stress environment. 
