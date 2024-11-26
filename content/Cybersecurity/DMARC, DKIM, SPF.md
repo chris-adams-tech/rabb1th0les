@@ -2,12 +2,6 @@
 title: DMARC, DKIM, SPF
 date: 2024-11-21
 ---
-
-<div class="neon-line"></div>
-
-
-
-
 # DKIM & SPF
 
 #### `DKIM` and `SPF` are email authentication protocols. 
@@ -55,23 +49,6 @@ date: 2024-11-21
 <div class="neon-line"></div>
 
 Source: https://www.cloudflare.com/learning/email-security/dmarc-dkim-spf/
-
-##### recommended existing tags
-
-
-##### recommended new tags
-EMPTY
-
-### Summary
-EMPTY
-
-### Key Points
-EMPTY
-
-### Chart
-```mermaid
-EMPTY
-```
 
 
 ---

@@ -79,7 +79,7 @@ Color coding is used to distinguish different phases:
 > Kerberoasting is an attack technique that involves an attacker abusing the privilege given to authenticated users to request a Ticket Granting Service (TGS) ticket for any servicePrincipalName (SPN) from a domain controller. -- From [[https://wazuh.com/blog/how-to-detect-active-directory-attacks-with-wazuh-part-1-of-2/|Wazuh]]
 > 
 
-![[_Cybersecurity/Diagrams as Code/kerberoast.svg]]
+![[kerberoast.svg]]
 ## Replication Attacks
 <div class="neon-line"></div>
 ### DCSync

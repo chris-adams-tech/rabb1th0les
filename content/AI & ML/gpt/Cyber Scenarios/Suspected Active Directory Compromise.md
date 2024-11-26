@@ -2,6 +2,7 @@
 Owner: Chris Adams
 title: Suspected Active Directory Compromise
 type: Simulated Scenario
+topic: active-directory
 summary: SOC is receiving series of alerts of suspicious activity in the Active Directory environment.
 date: 2024-11-13
 tags:

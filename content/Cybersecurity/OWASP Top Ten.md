@@ -27,11 +27,6 @@ date: 2024-11-20
 10. **Server-side Request Forgery**
     https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/
 
-
-
-
-
-
 <div class="neon-line"></div>
 
 Source: https://owasp.org/www-project-top-ten/

@@ -9,7 +9,6 @@ tags:
   - certs
 title: Fundamentals of Analytics on AWS - Part 1
 ---
-
 *Information is sourced from AWS Skill builder course*
 
 Data analytics uses raw data captures from many sources to process, analyze, and interpret what may happen and how an organization can use this knowledge for its benefit

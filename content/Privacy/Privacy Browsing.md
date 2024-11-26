@@ -13,22 +13,22 @@ https://www.whonix.org/
 
 They offer prebuilt virtual machines for better than VPN privacy.
 
-![[quartz/content/img/whonix.png]]
+![[whonix.png]]
 
 Provided is two virtual machines, one acting as a gateway for the workstation. When using, just boot both!
 
-![[quartz/content/img/whonix1.png]]
+![[whonix1.png]]
 
 Here's an example of what it looks like. I have this booted in the KVM machine
 
-![[quartz/content/img/whonix2.png]]
+![[whonix2.png]]
 
 You can see in the top right corner that the browser is being routed through the Tor network
 
-![[quartz/content/img/whonix3.png]]
+![[whonix3.png]]
 
 Verify in the browser by going to https://check.torporject.org
-![[quartz/content/img/whonix4.png]]
+![[whonix4.png]]
 
 ---
 <div style="text-align: center;">

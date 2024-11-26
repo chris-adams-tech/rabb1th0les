@@ -8,12 +8,6 @@ tags:
 cssclasses: 
 date: 2024-11-19
 ---
-<div class="neon-line"></div>
-
-
-
-
-
 ```
 
 Strings are used to represent text-based data and are mostly defined using either single quotes (') or double quotes (").

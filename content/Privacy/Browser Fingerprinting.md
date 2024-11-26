@@ -16,7 +16,7 @@ Remove your Fingerprint with the Firefox/Google extension “CanvasBlocker”
 
 Download in Firefox/Google
 
-![[quartz/content/img/canvasblocker.png]]
+![[canvasblocker.png]]
 
 ---
 <div style="text-align: center;">

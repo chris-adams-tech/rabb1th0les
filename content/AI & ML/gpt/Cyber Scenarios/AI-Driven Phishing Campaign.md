@@ -1,8 +1,8 @@
 ---
 Owner: Chris Adams
 title: AI-Driven Phishing Campaign
-type: 
-topic: 
+type: Simulated Scenario
+topic: phishing
 date: 2024-11-13
 tags:
   - ai-generated

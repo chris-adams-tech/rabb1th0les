@@ -2,7 +2,6 @@
 title: Lateral Movement - Detection & Response Guide
 date: 2024-11-14
 ---
-
 ## Common Techniques & Tools
 
 ### 1. PsExec Movement
@@ -356,8 +355,6 @@ Important points to emphasize in your interview:
 2. The importance of baseline knowledge and pattern recognition
 3. Quick containment while preserving forensic evidence
 4. The value of proper network segmentation and access controls
-
-Would you like to practice analyzing a lateral movement scenario? I can provide a detailed case study and guide you through the investigation process with interview-style questions.
 
 ---
 <div style="text-align: center;">

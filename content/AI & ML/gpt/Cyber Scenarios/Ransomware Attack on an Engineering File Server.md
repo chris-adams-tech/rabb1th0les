@@ -2,6 +2,7 @@
 Owner: Chris Adams
 title: Ransomware Attack on an Engineering File Server
 type: Simulated Scenario
+topic: ransomware
 summary: Users are noticing important files with a .crypted extension. Review to see the investigation process.
 date: 2024-11-12
 tags:

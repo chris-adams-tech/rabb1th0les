@@ -10,59 +10,67 @@ On this page you'll find a growing list of resources of various kinds.
 
 # Github Repos
 
-[[Resources/Github Repos/AC-Hunter Set up]]
-[[Resources/Github Repos/Argus]]
-[[Resources/Github Repos/Awesome Lists]]
-[[Resources/Github Repos/AWS Goat - A Damn Vulnerable AWS Infrastructure]]
-[[Resources/Github Repos/Black Hill Information Security]]
-[[Resources/Github Repos/Browsermon]]
-[[Resources/Github Repos/Cloud Grappler]]
-[[Resources/Github Repos/Cloud Security]]
-[[Resources/Github Repos/CloudGoat]]
-[[Resources/Github Repos/Damn Vulnerable Web Application]]
-[[Resources/Github Repos/Deep Fake Image Detector]]
-[[Resources/Github Repos/Digital Forensics Labs]]
-[[Resources/Github Repos/Elastic Detection Rules]]
-[[Resources/Github Repos/Halberd]]
-[[Resources/Github Repos/HTB- Sherlocks- Investigation Lab]]
-[[Resources/Github Repos/kerberoast]]
-[[Resources/Github Repos/mfasweep]]
-[[Resources/Github Repos/Mobile Testing]]
-[[Resources/Github Repos/OpenBAS Simulation Platform]]
-[[Resources/Github Repos/Other Tools]]
-[[Resources/Github Repos/PentestGPT]]
-[[Resources/Github Repos/RITA (Real Intelligence Threat Analytics)]]
-[[Resources/Github Repos/RSS Builder]]
-[[Resources/Github Repos/S3Scanner]]
-[[Resources/Github Repos/Seatbelt]]
-[[Resources/Github Repos/secator]]
-[[Resources/Github Repos/Sigma]]
-[[Resources/Github Repos/Splunk Attack Range]]
-[[Resources/Github Repos/Vulnerable Active Directory]]
-[[Resources/Github Repos/Web Application Security]]
-[[Resources/Github Repos/Yara]]
+[[AC-Hunter Set up]]
+[[Argus]]
+[[Awesome Lists]]
+[[AWS Goat - A Damn Vulnerable AWS Infrastructure]]
+[[Black Hill Information Security]]
+[[Browsermon]]
+[[Cloud Grappler]]
+[[Cloud Security]]
+[[CloudGoat]]
+[[Damn Vulnerable Web Application]]
+[[Deep Fake Image Detector]]
+[[Digital Forensics Labs]]
+[[Elastic Detection Rules]]
+[[Halberd]]
+[[HTB- Sherlocks- Investigation Lab]]
+[[kerberoast]]
+[[mfasweep]]
+[[Mobile Testing]]
+[[OpenBAS Simulation Platform]]
+[[Other Tools]]
+[[PentestGPT]]
+[[RITA (Real Intelligence Threat Analytics)]]
+[[RSS Builder]]
+[[S3Scanner]]
+[[Seatbelt]]
+[[secator]]
+[[Sigma]]
+[[Splunk Attack Range]]
+[[Vulnerable Active Directory]]
+[[Web Application Security]]
+[[Yara]]
 
 
-# Resources
 
-[[Resources/Links/DEFCON]]
-[[Resources/Links/DFIR]]
-[[content/Resources/Explore/Links/Docs for major service providers]]
-[[Resources/Links/Links to random stuff]]
-[[Resources/Links/Malware Threat Feeds]]
-[[Resources/Links/My Music]]
-[[Resources/Links/Python Packages for domain investigation]]
-[[Resources/Links/Reverse Engineering Tools]]
-[[Resources/Links/Table of Security Tools]]
-[[Resources/Links/The Hive Project]]
-[[Resources/Links/Tips & Tricks]]
-[[Resources/Links/YouTube Channels]]
+### Online tools to convert, decode, encode, etc.
+https://beautifytools.com/
+
+
+# Web Application Tools
+### **Javascript obfuscator**
+https://obfuscator.io/
+
+### **Test your obfuscated Javascript code to verify it runs**
+https://jsconsole.com/
+
+### **JSFuck -- another way to obfuscate**
+https://jsfuck.com/
+
+### **Javascript beautifier**
+https://prettier.io/playground/
+
+https://beautifier.io/
+
+### **Unpacking obfuscated Javascript code**
+https://matthewfl.com/unPacker.html
+
+# Full Stack Dev Courses for Beginners
+
+https://www.freecodecamp.org/news/learn-web-development-free-full-stack-developer-courses-for-beginners/
 
 ---
-
-Thanks for taking the time to read through my content. If you enjoy this type of content, check back here for more updates. 
-
-Peace ✌️
 
 <div style="text-align: center;">
 	<div class="gradient-text">👾 2024 rabb1th0les (Chris A)dams 👾</div> 

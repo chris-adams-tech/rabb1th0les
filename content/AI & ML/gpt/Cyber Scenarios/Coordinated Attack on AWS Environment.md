@@ -1,6 +1,8 @@
 ---
 Owner: Chris Adams
 title: Coordinated Attack on AWS Environment
+type: Simulated Scenario
+topic: cloud
 date: 2024-11-13
 edited: 
 layout: new_page

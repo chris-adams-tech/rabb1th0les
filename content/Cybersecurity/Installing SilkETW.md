@@ -9,7 +9,6 @@ tags:
   - windows-services
 draft:
 ---
-
 SilkETW is a powerful tool for monitoring and analyzing Windows Event Tracing for Windows (ETW) logs, which can provide insights into various activities within a Windows environment.
 
 ### Step 1: Setting Up SilkETW

@@ -40,17 +40,16 @@ Check out the about pages for more information about myself and this project. \
 
 ## AI & ML
 
-| Practice Cybersecurity Scenarios                                                                                                                                                                                 | Type               | Topic | Summary                                                                                     | Tags                                                                                          |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ----- | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| [Coordinated Attack on AWS Environment](app://obsidian.md/quartz/content/AI%20&%20ML/gpt/Cyber%20Scenarios/Coordinated%20Attack%20on%20AWS%20Environment.md)                                                     | -                  | -     | Involving Privilege Escalation and Data Exfiltration                                        | - ai-generated                                                                                |
-| [AI-Driven Phishing Campaign](app://obsidian.md/quartz/content/AI%20&%20ML/gpt/Cyber%20Scenarios/AI-Driven%20Phishing%20Campaign.md)                                                                             | -                  | -     | Phishing and Social Engineering attack utilizing AI tools and using context-aware messages. | - ai-generated<br>- cyber-scenarios                                                           |
-| [Exploitation of Log4Shell in AWS Environment](app://obsidian.md/quartz/content/AI%20&%20ML/gpt/Cyber%20Scenarios/Exploitation%20of%20Log4Shell%20in%20AWS%20Environment.md)                                     | -                  | -     | -                                                                                           | - ai-generated                                                                                |
-| [Home](app://obsidian.md/quartz/content/AI%20&%20ML/gpt/Cyber%20Scenarios/Home.md)                                                                                                                               | Home Page          | -     | -                                                                                           | - home                                                                                        |
-| [Pass-the-Hash](app://obsidian.md/quartz/content/AI%20&%20ML/gpt/Cyber%20Scenarios/Pass-the-Hash.md)                                                                                                             | Simulated Scenario | -     | -                                                                                           | - ai-generated<br>- active-directory<br>- cyber-scenarios                                     |
-| [Ransomware Attack on an Engineering File Server](app://obsidian.md/quartz/content/AI%20&%20ML/gpt/Cyber%20Scenarios/Ransomware%20Attack%20on%20an%20Engineering%20File%20Server.md)                             | Simulated Scenario | -     | -                                                                                           | - ai-generated<br>- ransomware<br>- active-directory<br>- threat-hunting<br>- cyber-scenarios |
-| [Suspected Active Directory Compromise](app://obsidian.md/quartz/content/AI%20&%20ML/gpt/Cyber%20Scenarios/Suspected%20Active%20Directory%20Compromise.md)                                                       | Simulated Scenario | -     | -                                                                                           | - ai-generated<br>- cyber-scenarios<br>- active-directory                                     |
-| [Suspicious Activity on Finance Department Server](app://obsidian.md/quartz/content/AI%20&%20ML/gpt/Cyber%20Scenarios/Suspicious%20Activity%20on%20Finance%20Department%20Server.md)                             | Simulated Scenario | -     | -                                                                                           | - ai-generated                                                                                |
-| [Unauthorized Access and Data Exfiltration in AWS Environment](app://obsidian.md/quartz/content/AI%20&%20ML/gpt/Cyber%20Scenarios/Unauthorized%20Access%20and%20Data%20Exfiltration%20in%20AWS%20Environment.md) | -                  | -     | -                                                                                           | - ai-generated                                                                                |
+| Practice Cybersecurity Scenarios                                 | Type               | Topic             | Summary                                                                                     | Tags[]                                                                                        |
+| ---------------------------------------------------------------- | ------------------ | ----------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [[Coordinated Attack on AWS Environment]]                        | Simulated Scenario | Cloud             | Involving Privilege Escalation and Data Exfiltration                                        | - ai-generated                                                                                |
+| [[AI-Driven Phishing Campaign]]                                  | Simulated Scenario | Phishing          | Phishing and Social Engineering attack utilizing AI tools and using context-aware messages. | - ai-generated<br>- cyber-scenarios                                                           |
+| [[Exploitation of Log4Shell in AWS Environment]]                 | Simulated Scenario | cloud, exploit    | -                                                                                           | - ai-generated                                                                                |
+| [[Pass-the-Hash]]                                                | Simulated Scenario | active-directory  | -                                                                                           | - ai-generated<br>- active-directory<br>- cyber-scenarios                                     |
+| [[Ransomware Attack on an Engineering File Server]]              | Simulated Scenario | ransomware        | -                                                                                           | - ai-generated<br>- ransomware<br>- active-directory<br>- threat-hunting<br>- cyber-scenarios |
+| [[Suspected Active Directory Compromise]]                        | Simulated Scenario | active-directory  | -                                                                                           | - ai-generated<br>- cyber-scenarios<br>- active-directory                                     |
+| [[Suspicious Activity on Finance Department Server]]             | Simulated Scenario | threat-hunting    | -                                                                                           | - ai-generated                                                                                |
+| [[Unauthorized Access and Data Exfiltration in AWS Environment]] | Simulated Scenario | cloud, data exfil | -                                                                                           | - ai-generated                                                                                |
 
 ## Cybersecurity
 
@@ -61,11 +60,16 @@ Check out the about pages for more information about myself and this project. \
 ## Linux
 
 
-<div class="neon-line"></div>
+---
 
-
-👾 2024 rabb1th0les (Chris A)dams 👾
-
-🌴☀ Thanks for supporting my page ☀🌴
-
-
+<div style="text-align: center;">
+	<div class="gradient-text">👾 2024 rabb1th0les (Chris A)dams 👾</div> 
+	🌴☀Thanks for supporting my page ☀🌴
+	<nav>
+		<ul style="list-style: none; padding: 0;">
+			<div style="text-align: center;">
+				<li><a href="index.html">Home</a> | <a href="Contact.html">Contact</a></li>
+			</div>
+		</ul>
+	</nav>	
+</div>

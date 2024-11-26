@@ -216,7 +216,7 @@ Details: Suspicious email detected attempting to bypass SPF
 From: ceo@company-domain.com
 To: accounts.payable@company.com
 Subject: Urgent Wire Transfer Required
-```
+Would you like to practice analyzing a lateral movement scenario? I can provide a detailed case study and guide you through the investigation process with interview-style questions.```
 
 ### Email Content
 ```
@@ -452,6 +452,20 @@ These scenarios represent common incidents you might handle as an MDR analyst. A
 3. The value of proper documentation throughout the incident
 
 Would you like to practice walking through one of these scenarios? I can play the role of the interviewer and ask you specific questions about how you'd handle different aspects of the investigation.
+
+---
+<div style="text-align: center;">
+	<div class="gradient-text">👾 2024 rabb1th0les (Chris A)dams 👾</div> 
+	🌴☀Thanks for supporting my page ☀🌴
+	<nav>
+		<ul style="list-style: none; padding: 0;">
+			<div style="text-align: center;">
+				<li><a href="index.html">Home</a> | <a href="Contact.html">Contact</a></li>
+			</div>
+		</ul>
+	</nav>	
+</div>
+```
 
 ---
 <div style="text-align: center;">

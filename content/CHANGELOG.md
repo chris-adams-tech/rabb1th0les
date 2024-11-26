@@ -1,3 +1,10 @@
+Recent updated 2024-11-26 13:07
+* renamed page to `rabb1tholes.pages.dev`
+* yet another reorganization
+* built out more templates for optimizing page creation
+* updated footer for pages
+* created data view for easier navigating
+
 Recent updated 2024-11-19 14:51
 * discovered a new design that I will be working on implementing, thanks to this awesome project, https://killswitchp.github.io/cdsa.html
 

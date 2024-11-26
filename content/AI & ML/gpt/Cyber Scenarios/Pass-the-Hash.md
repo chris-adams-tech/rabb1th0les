@@ -2,6 +2,7 @@
 Owner: Chris Adams
 title: Pass-the-Hash
 type: Simulated Scenario
+topic: active-directory
 summary: SOC has received alerts of unusual Active Directory activity. Review to see the investigation process.
 date: 2024-11-12
 tags:

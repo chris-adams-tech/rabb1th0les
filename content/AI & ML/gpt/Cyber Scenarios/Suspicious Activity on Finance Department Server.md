@@ -2,10 +2,14 @@
 Owner: Chris Adams
 title: Suspicious Activity on Finance Department Server
 type: Simulated Scenario
+topic: data exfil
 summary: SOC is receiving alerts from finance department indicating potential data exfiltration.
 date: 2024-11-13
 tags:
   - ai-generated
+  - data-exfil
+  - threat-hunting
+  - inve
 draft: false
 goal: Investigate and correlate alerts to determine root cause.
 ---
