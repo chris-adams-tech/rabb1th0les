@@ -62,7 +62,7 @@ https://jsfuck.com/
 https://prettier.io/playground/
 
 https://beautifier.io/
-
+ 
 ### **Unpacking obfuscated Javascript code**
 https://matthewfl.com/unPacker.html
 
