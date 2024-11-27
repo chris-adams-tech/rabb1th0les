@@ -7,7 +7,7 @@ tags:
 This plugin provides support for [[Obsidian compatibility]].
 
 > [!note]
-> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
+> For information on how to add, remove or configure plugins, see the [[rabb1th0les/quartz/docs/configuration#Plugins|Configuration]] page.
 
 This plugin accepts the following configuration options:
 

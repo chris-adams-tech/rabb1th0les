@@ -162,7 +162,7 @@ The basic Wazuh server is now set up and after this, I began setting up the Acti
 ## Windows Server download
 1. First, download Windows server from the Windows website, the Evaluation version. This allows for 180 days of use for the trial license.
     
-    [https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022)
+https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
 
 You may have to enter your information in order to get the link to the download. If you don't want to enter that information, the link above will go directly to the Windows Server 2022 Evaluation Center download.
 

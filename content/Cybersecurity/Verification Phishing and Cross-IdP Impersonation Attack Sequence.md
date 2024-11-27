@@ -41,6 +41,8 @@ Here is a detailed sequence of events illustrating a verification phishing attac
 - **Limited Logging:** No logs are generated in Microsoft Entra, making detection more difficult. Only logs within Atlassian would show the unauthorized access, but these logs might be overlooked or difficult to analyze without proper security monitoring.
 - **Data Breach:** The attacker gains access to the target user's data and potentially sensitive information within the Atlassian application.
 
+For the article review, check out the related page [[Verification Phishing and Cross-IdP Impersonation - Unmasking the Next Generation of Phishing Attacks]]
+
 ---
 
 <div style="text-align: center;">

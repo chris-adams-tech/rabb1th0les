@@ -12,37 +12,31 @@ tags:
   - cli
   - networking
 ---
-
-
-> [!important]  
-> When using KVM, Virtualbox for the most part cannot exist, that is, it won’t run while KVM modules are loaded into memory. A bash script can be created to automate the process of enabling/disabling the kernel modules for VBox and KVM.  
-_See the link below for instruction on how to automate with bash script_
-[[Notes/Automation, Cloud & Virtualization/Virtualization/Explorer/Switch between VBox and KVM]]
----
+Part of my journey into Linux also began into `libvirt` and `Qemu`. To me, it just made sense as it came native to most Linux distributions. So here are some commands and little tricks that I found useful when using this in my home lab.
 ### KVM CLI
 **View available virtual machines**
 ```Bash
-sudo virsh list
+virsh list
 ```
 
 **Shutdown an active virutal machine**
 ```Bash
-sudo virsh shutdown <HOSTNAME>
+virsh shutdown <HOSTNAME>
 ```
 
 **Confirm the virtual host is shutdown**
 ```Bash
-sudo virsh list
+virsh list
 ```
 
 **Locate virtual machine’s file path**
 ```Bash
-sudo virsh domblklist <HOSTNAME>
+virsh domblklist <HOSTNAME>
 ```
 
 **Obtain information about the guest OS virtual machine**
 ```Bash
-sudo qemu-img info <PATH-FROM-OUTPUT-ABOVE>
+qemu-img info <PATH-FROM-OUTPUT-ABOVE>
 ```
 
 ## Network Tunneling

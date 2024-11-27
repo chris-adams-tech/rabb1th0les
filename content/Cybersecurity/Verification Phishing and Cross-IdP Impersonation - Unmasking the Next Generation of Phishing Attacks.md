@@ -138,6 +138,8 @@ Beyond what is mentioned for the technical controls, one of our primary defenses
 - How would you rate its usefulness (1–5 stars) and credibility?
 - Would you recommend it to others in your field?
 
+If you want to check out the attack sequence, see this related page [[Verification Phishing and Cross-IdP Impersonation Attack Sequence]]
+
 ---
 <div style="text-align: center;">
 	<div class="gradient-text">👾 2024 rabb1th0les (Chris A)dams 👾</div> 

@@ -8,12 +8,12 @@ Here are some animated flow charts that I have just learned how to create. I hav
 
 Here is the result:
 
+![[kerberoast.svg]]
 
-![[quartz/content/Cybersecurity/Diagrams as Code/kerberoast.svg]]
 
-<div class="neon-line"></div>
+---
 
-![[quartz/content/Cybersecurity/Diagrams as Code/cyberkillchain-tactics.svg]]
+![[cyberkillchain-tactics.svg]]
 
 ---
 <div style="text-align: center;">

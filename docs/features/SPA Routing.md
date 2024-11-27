@@ -4,4 +4,4 @@ Under the hood, this is done by hijacking page navigations and instead fetching 
 
 ## Configuration
 
-- Disable SPA Routing: set the `enableSPA` field of the [[configuration]] in `quartz.config.ts` to be `false`.
+- Disable SPA Routing: set the `enableSPA` field of the [[rabb1th0les/quartz/docs/configuration]] in `quartz.config.ts` to be `false`.

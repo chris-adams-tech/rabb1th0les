@@ -1,6 +1,13 @@
 ---
 title: wmic and PSExec study
 date: 2024-11-20
+tags:
+  - active-directory
+  - analysis/event-logs
+  - cli
+  - pentesting
+  - powershell
+  - threat-hunting
 ---
 
 

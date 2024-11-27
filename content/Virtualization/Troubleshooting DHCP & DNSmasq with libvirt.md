@@ -31,6 +31,29 @@ However, when I had tried this, it never seemed to work. Instead of refreshing, 
 
 `/var/lib/libvirt/dnsmasq`
 
+
+
+> [!INFO] Virsh Info
+>This new virsh command below uses the new virNetworkUpdate() API to modify an existing network definition, and optionally have those modifications take effect immediately without restarting the network.
+
+An example usage:
+
+```
+virsh net-update add-last ip-dhcp-host \
+   --xml "<host mac='00:11:22:33:44:55' ip='192.168.122.45'/>" \
+   --live --config
+```
+If you like, you can instead put the xml into a file, and call like
+this:
+```
+virsh net-update add-last ip-dhcp-host \
+   --file "<host mac='00:11:22:33:44:55' ip='192.168.122.45'/>" \
+   --live --config
+```
+  
+Source: https://listman.redhat.com/archives/libvir-list/2012-September/msg01380.html
+
+
 ---
 <div style="text-align: center;">
 	<div class="gradient-text">👾 2024 rabb1th0les (Chris A)dams 👾</div> 
