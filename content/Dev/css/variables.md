@@ -23,14 +23,14 @@
 | `--accent-l` | `68%`         | Accent lightness  |
 To see more color options: https://docs.obsidian.md/Reference/CSS+variables/Foundations/Colors
 # File Explorer
-|Variable|Description|
-|---|---|
-|`--vault-profile-display`|`display` property for the vault profile|
-|`--vault-profile-actions-display`|`dsiplay` property for the action buttons in the vault profile|
-|`--vault-profile-font-size`|Font size|
-|`--vault-profile-font-weight`|Font weight|
-|`--vault-profile-color`|Text color|
-|`--vault-profile-color-hover`|Text color (hover)|
+| Variable                          | Description                                                    |
+| --------------------------------- | -------------------------------------------------------------- |
+| `--vault-profile-display`         | `display` property for the vault profile                       |
+| `--vault-profile-actions-display` | `dsiplay` property for the action buttons in the vault profile |
+| `--vault-profile-font-size`       | Font size                                                      |
+| `--vault-profile-font-weight`     | Font weight                                                    |
+| `--vault-profile-color`           | Text color                                                     |
+| `--vault-profile-color-hover`     | Text color (hover)                                             |
 
 # Graph
 |Variable|Description|

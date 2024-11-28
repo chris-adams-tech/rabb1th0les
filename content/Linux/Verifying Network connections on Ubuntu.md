@@ -9,7 +9,7 @@ title: Verifying Network connections on Ubuntu
   ip a
   ```
   
-  Ensure that the IP address and subnet mask are correctly configured on the Ubuntu machine and that they are on the same subnet as the Windows host.
+> Ensure that the IP address and subnet mask are correctly configured on the Ubuntu machine and that they are on the same subnet as the Windows host.
 
 - **Routes**:
   Check the routing table to ensure that there’s a route to the Windows host:
@@ -43,8 +43,8 @@ title: Verifying Network connections on Ubuntu
 
 - **Check Windows Firewall Rules**:
   On your Windows machine, check if the Windows Firewall is configured to allow ICMP packets (ping). To do this:
-  - Go to Control Panel > System and Security > Windows Firewall > Advanced settings.
-  - Go to "Inbound Rules" and look for "File and Printer Sharing (Echo Request - ICMPv4-In)" and ensure it is enabled.
+  - Go to **Control Panel** > **System and Security** > **Windows Firewall** > **Advanced settings**.
+  - Go to "**Inbound Rules**" and look for "**File and Printer Sharing** (Echo Request - ICMPv4-In)" and ensure it is **enabled**.
 
 ### 4. Network Adapter Configuration
 
@@ -65,7 +65,7 @@ title: Verifying Network connections on Ubuntu
 ### 6. Check Hostname Resolution
 
 - **Use IP Address**:
-  Instead of pinging by hostname, use the IP address of the Windows host to rule out DNS resolution issues.
+  Instead of pinging by hostname, use the IP address of the Windows host to rule out DNS resolution issues. Hostnames are kept in the `/etc/hosts` file.
 
 ### 7. Logging and Diagnosis
 

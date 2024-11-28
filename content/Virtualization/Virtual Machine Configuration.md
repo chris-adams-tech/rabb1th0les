@@ -50,11 +50,6 @@ sudo virsh domblklist <HOSTNAME>
 ```Bash
 sudo qemu-img info <PATH-FROM-OUTPUT-ABOVE>
 ```
-### Securing nginx web server with TLS certificated and for auto renewal
-
-> [!info] How To Secure Nginx with Let's Encrypt on Ubuntu | DigitalOcean  
-> Let’s Encrypt is a Certificate Authority (CA) that provides an accessible way to obtain and install free TLS/SSL certificates, thereby enabling encrypted HTT…  
-> [https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-22-04](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-22-04)  
 
 ---
 <div style="text-align: center;">
