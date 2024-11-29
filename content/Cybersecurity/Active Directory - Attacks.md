@@ -1,13 +1,12 @@
 ---
 Owner: Chris Adams
-date: 
+date: 2024-11-03
 edited: 
 tags:
   - windows
   - active-directory
 draft: false
 ---
-
 # Attacks
 
 Active Directory exists nearly in every enterprise network today to some extent and continues to grow with the increasing amount of Azure products. As a defender, I believe it is important to know both the attack vectors threat actors may use, as they are constantly changing. I have found myself diving down quite a few rabbit holes around Active Directory and have found it to be an extremely rewarding learning experience. 
@@ -25,54 +24,13 @@ Alright, so on to the Active Directory attacks...
 
 Here are some common Active Directory attacks broken down by 
 ## Credential Attacks
-<div class="neon-line"></div>
+---
 ### Pass-the-Hash
 
 ![[pass-the-hash.svg]]
 
-1. Initial System Compromise:
-    - Attacker gains elevated access
-	    - This attack requires administrative access
-    - Extracts credentials from LSASS process
-	    - uses tools such as mimikatz
-    - Accesses SAM database for stored hashes
-	    - obtains NTLM hash
-1. Hash Exploitation:
-    - Attacker obtains NTLM hash
-    - No need for plaintext password
-    - Hash can be used for authentication
-2. Lateral Movement:
-    - Attacker uses hash for network authentication
-    - Connects to other systems
-    - Domain Controller validates hash without password
-3. Privilege Escalation:
-    - Uses compromised admin hashes
-    - Gains elevated access on target systems
 
-The diagram also includes:
-
-5. Common Attack Vectors:
-    - Tools used (Mimikatz, WCE, PSExec)
-    - Vulnerable components
-    - Success factors
-6. Prevention Methods:
-    - Credential Guard
-    - LSA Protection
-    - Privileged Access Management
-    - Multi-Factor Authentication
-    - System hardening measures
-
-Color coding is used to distinguish different phases:
-
-- Red: Initial compromise
-- Blue: Hash exploitation
-- Green: Lateral movement
-- Purple: Privilege escalation
-- Yellow: Attack vectors
-- Cyan: Prevention methods
-
-### Password Spraying
-*Work in progress*
+---
 ### Kerberoasting
 
 > [!INFO] What is Kerberoasting?
@@ -80,8 +38,10 @@ Color coding is used to distinguish different phases:
 > 
 
 ![[kerberoast.svg]]
+
+Further reading: https://www.thehacker.recipes/ad/movement/kerberos/kerberoast
 ## Replication Attacks
-<div class="neon-line"></div>
+---
 ### DCSync
 
 > [!INFO] What is DCSync
@@ -110,11 +70,8 @@ After executing this, we can check in Wazuh to verify that we captured the event
 https://wazuh.com/blog/how-to-detect-active-directory-attacks-with-wazuh-part-1-of-2/
 
 
-### DCShadow
-*Work in progress*
-
 ## Privilege Escalation
-<div class="neon-line"></div>
+---
 ### Golden Ticket
 
 
@@ -147,13 +104,13 @@ After reviewing the above, we can see that `mimikatz` is spawning the `cmd` shel
 After running the command `klist`, we will see that the ticket that is currently loaded, is the ticket we previously generated for the user "notJohn".
 
 ![[mimikatz-klist.png]]
-### AdminSDHolder and SDProp Abuse
-*Work in progress*
 
-## Reconnaissance and Mapping
-<div class="neon-line"></div>
+Check back here for more updates!
+
+Last updated Nov-29-2024 07:14
 
 ---
+
 <div style="text-align: center;">
 	<div class="gradient-text">👾 2024 rabb1th0les (Chris A)dams 👾</div> 
 	🌴☀Thanks for supporting my page ☀🌴

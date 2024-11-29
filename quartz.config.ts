@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "chris-adams-tech.pages.dev",
+    baseUrl: "rabb1th0les.pages.dev",
     ignorePatterns: ["private", "templates", ".obsidian", "layouts", "_config"],
     defaultDateType: "created",
     generateSocialImages: false,

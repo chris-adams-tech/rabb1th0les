@@ -11,13 +11,13 @@ draft:
 ### Seven Beats Music
 
 https://www.youtube.com/@SevenBeatsmusic
-![[Resources/img/seven-beats.png]]
+![[seven-beats.png]]
 
 ### Ghibli Coffee Shop
 
 https://www.youtube.com/watch?v=zhDwjnYZiCo
 
-![[Resources/img/ghibli-coffee.png]]
+![[ghibli-coffee.png]]
 ### 90's LoFi City
 
 https://www.youtube.com/watch?v=HQwLPhE2zys
@@ -42,7 +42,7 @@ https://www.youtube.com/watch?v=3CCFIMrPpDY
 
 https://www.youtube.com/@PsyAmb
 
-![[Resources/img/psyamb.png]]
+![[psyamb.png]]
 
 ### Tengri Psy-Chill Set
 

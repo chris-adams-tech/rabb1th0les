@@ -5,9 +5,10 @@ tags:
   - threat-hunting
   - ethical-hacker
 title: Abusing DNS Text Records
+draft: true
 ---
 
-**Arcticles:**
+**Articles:**
 
 Palo Alto
 https://unit42.paloaltonetworks.com/dns-tunneling-how-dns-can-be-abused-by-malicious-actors/
