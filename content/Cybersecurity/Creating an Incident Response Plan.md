@@ -5,6 +5,8 @@ tags:
   - incident-response
   - grc
 title: Creating an Incident Response Plan
+type: Technical Guide
+topic: IR Planning
 ---
 
 Source: https://app.letsdefend.io/training/lesson_detail/how-create-incident-response-plan-windows

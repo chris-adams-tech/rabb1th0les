@@ -1,5 +1,7 @@
 ---
 title: wmic and PSExec study
+type: Technical Guide
+topic: Active Directory
 date: 2024-11-20
 tags:
   - active-directory

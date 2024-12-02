@@ -5,6 +5,8 @@ tags:
   - networking
 date: 2024-11-21
 title: DNS PTR Records
+type: Technical Guide
+topic: DNS
 ---
 In a regular `DNS` transaction, domain names are resolved to IP addresses and stored under the domain name.
 * when typing `google.com` into a browser, the `DNS` server will resolve to an IPv4 (**A record**)/IPv6 (**AAAA record**) address the server can send back to the user to connect.

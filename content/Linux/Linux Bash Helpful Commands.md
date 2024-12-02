@@ -16,7 +16,7 @@ Now, what does this mean? And how do we use it?
 
 Let's take an example looking for the string `shadow` in the `/etc/` directory. 
 
-![[lin-bash.png]]
+![[_attachments/lin-bash.png]]
 * `find /etc/ -name shadow` - STDIN - 0
 * `/etc/shadow` - STDOUT - 1
 * `Permission denied` - STDERR -2
@@ -29,7 +29,7 @@ The following code can be run to output and errors to `/dev/null`, essentially j
 find /etc/ -name shadow 2>/dev/null
 ```
 
-![[lin-bash1.png]]
+![[_attachments/lin-bash1.png]]
 
 This will only output the `STDOUT -1` or the `/etc/shadow` file, removing any extra noise from the errors that are produced.
 
@@ -53,10 +53,10 @@ find /etc/ -name passwd >> stdout.txt 2>/dev/null
 cat << EOF > stream.txt
 ```
 
-![[lin-bash2.png]]
+![[_attachments/lin-bash2.png]]
 Notice from the screenshot below that the script will continue to go, until the command `EOF` is entered. Additionally, if the command is run multiple times, as we've discussed previously, the data will be overwritten.
 
-![[lin-bash3.png]]
+![[_attachments/lin-bash3.png]]
 
 <div class="neon-line"></div>
 

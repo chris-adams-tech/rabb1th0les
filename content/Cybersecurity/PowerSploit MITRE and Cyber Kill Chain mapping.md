@@ -1,6 +1,8 @@
 ---
 date: 2024-10-24
 title: PowerSploit MITRE and Cyber Kill Chain mapping
+type: Technical Guide
+topic: MITRE & Cyber Kill Chain
 ---
 ### PowerSploit Modules Mapped to MITRE ATT&CK Framework & Cyber Kill Chain
 

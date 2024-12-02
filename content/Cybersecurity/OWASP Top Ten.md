@@ -1,6 +1,8 @@
 ---
 title: OWASP Top Ten
 date: 2024-11-20
+type: Reference
+topic: OWASP
 ---
 
 

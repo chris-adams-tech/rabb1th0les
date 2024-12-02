@@ -6,6 +6,8 @@ tags:
   - windows
   - active-directory
 draft: false
+type: Technical Guide
+topic: Active Directory
 ---
 # Attacks
 

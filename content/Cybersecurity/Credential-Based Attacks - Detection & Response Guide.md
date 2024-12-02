@@ -5,6 +5,8 @@ tags:
   - cyber-scenarios
   - detection-response
 title: Credential-Based Attacks - Detection & Response Guide
+type: Technical Guide
+topic: Credential-Based Attacks
 ---
 
 ## Types of Credential Attacks

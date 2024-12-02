@@ -1,6 +1,8 @@
 ---
 date: 2024-10-24
 title: Get-WinEvent
+type: Technical Guide
+topic: Windows Event Logs
 ---
 
 The `Get-WinEvent` command is a PowerShell tool that assists in querying for Windows Event Logs.

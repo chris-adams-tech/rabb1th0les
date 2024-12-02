@@ -32,7 +32,7 @@ A common tool used is *Mimikatz* to extract the *NTLM* hash of a user that's cur
 C:\Windows\system32>dir \\dc01\c$
 ```
 
-![[Screenshot from 2024-10-29 14-02-31.png]]
+![[_attachments/Screenshot from 2024-10-29 14-02-31.png]]
 
 *Image sourced from HacktheBox: Detecting Pass-the-Hash module*
 

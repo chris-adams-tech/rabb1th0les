@@ -3,6 +3,7 @@ Owner: Chris Adams
 date: 2024-11-14
 draft: false
 title: Animated Flow Charts
+type: Diagrams
 ---
 Here are some animated flow charts that I have just learned how to create. I have a workflow using AI to build from code, then I verify, adjust, and animate. 
 

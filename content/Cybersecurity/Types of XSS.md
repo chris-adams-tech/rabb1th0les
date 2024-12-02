@@ -1,6 +1,8 @@
 ---
 title: Types of XSS
 date: 2024-11-14
+type: Technical Guide
+topic: Web-Based
 ---
 
 # Reflected XSS (**non-persistent/Type I**)

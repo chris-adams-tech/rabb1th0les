@@ -169,12 +169,6 @@ Here’s a guided investigation flow to analyze the scenario in-depth.
 
 This scenario is designed to mimic the rapid-response, multi-step investigation process MDR analysts handle in ransomware and lateral movement incidents, testing both technical skills and strategic decision-making.
 
-<div class="neon-line"></div>
-
-Thanks for taking the time to read through my content. If you enjoy this type of content, check back here for more updates. 
-
-Peace ✌️
-
 #### Created on: Nov 12, 2024
 ---
 <div style="text-align: center;">

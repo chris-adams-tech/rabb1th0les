@@ -1,6 +1,8 @@
 ---
 title: Hex, Binary and ASCII
 date: 2024-11-19
+type: Technical Guide
+topic: Binary-Hex Conversion
 ---
 
 

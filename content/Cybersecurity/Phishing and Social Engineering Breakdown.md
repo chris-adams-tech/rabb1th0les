@@ -2,6 +2,8 @@
 cssclasses: 
 title: Phishing and Social Engineering Breakdown
 date: 2024-11-18
+type: Technical Guide
+topic: phishing
 ---
 
 # Phishing & Social Engineering: A Detailed Analysis Guide

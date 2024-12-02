@@ -179,10 +179,6 @@ This is a structured investigation flow to fully analyze the incident and recomm
 
 <div class="neon-line"></div>
 
-Thanks for taking the time to read through my content. If you enjoy this type of content, check back here for more updates. 
-
-Peace ✌️
-
 #### Created on: Nov 12, 2024
 ---
 <div style="text-align: center;">

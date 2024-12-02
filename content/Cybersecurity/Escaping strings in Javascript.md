@@ -7,8 +7,9 @@ tags:
   - application-security
 cssclasses: 
 date: 2024-11-19
+type: Technical Guide
+topic: Coding
 ---
-```
 
 Strings are used to represent text-based data and are mostly defined using either single quotes (') or double quotes (").
 

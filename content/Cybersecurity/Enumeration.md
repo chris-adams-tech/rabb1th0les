@@ -6,7 +6,9 @@ tags:
   - pentesting/enumeration
   - scanning
   - notes
-draft:
+draft: 
+type: Technical Guide
+topic: Enumeration
 ---
 ### Port Scanning
 
@@ -23,72 +25,72 @@ TCP scanning
 ```bash
 nmap -sS <target-ip>
 ```
-![[nmap.png]]
+![[_attachments/nmap.png]]
 
  - Full Connect Scan
 ```bash
 nmap -sT -p <port(s)> <target-network/cidr>
 ```
- ![[full.png]]
+ ![[_attachments/full.png]]
  
 - XMAS scan with nmap
 ```bash
 nmap -sX <target-ip>
 ```
-![[xmas 1.png]]
+![[_attachments/xmas 1.png]]
 
 - UDP Scanning
 ```bash
 nmap -sU -T 4 <target-ip>
 ```
-![[udp.png]]
+![[_attachments/udp.png]]
 
  - Version Scan
 ```bash
 nmap -sV <target-ip>
 ```
 
-![[version.png]]
+![[_attachments/version.png]]
 
  - OS Scan
 ```bash
 nmap -O <target-ip>
 ```
 
-![[os.png]]
+![[_attachments/os.png]]
  
 - Script Discovery
 ```bash
 nmap -sS --script-discovery <target-network/cidr>
 ```
 
-![[sd 1.png]]
+![[_attachments/sd 1.png]]
 ## zenmap
-![[zm 1.png]]
+![[_attachments/zm 1.png]]
 ## NetworkMiner
 
 [https://www.netresec.com/docs/NetworkMiner_Manual.pdf](https://www.netresec.com/docs/NetworkMiner_Manual.pdf)
 
 - Difference between NetworkMiner and Wireshark
 
-| Feature                     | **NetworkMiner**                                     | Wireshark |
-| --------------------------- | ---------------------------------------------------- | --------- |
-| Purpose                     | Quick overview, traffic mapping, and data extraction | In-Depth  |
-| GUI                         | ✅                                                    | ✅         |
-| Sniffing                    | ✅                                                    | ✅         |
-| Handling PCAPS              | ✅                                                    | ✅         |
-| OS Fingerprinting           | ✅                                                    | ❌         |
-| Parameter/Keyword Discovery | ✅                                                    | Manual    |
-| Credential Discovery        | ✅                                                    | ✅         |
-| File Extraction             | ✅                                                    | ✅         |
-| Filtering Options           | Limited                                              | ✅         |
-| Packet Decoding             | Limited                                              | ✅         |
-| Protocol Analysis           | ❌                                                    | ✅         |
-| Payload Analysis            | ❌                                                    | ✅         |
-| Statistical Analysis        | ❌                                                    | ✅         |
-| Cross-Platform Support      | ✅                                                    | ✅         |
-| Host Categorisation         | ✅                                                    | ❌         |
-| Ease of Management          | ✅                                                    | ✅         |
+| Feature                     | **NetworkMiner**                                     | **Wireshark** |
+| --------------------------- | ---------------------------------------------------- | ------------- |
+| Purpose                     | Quick overview, traffic mapping, and data extraction | In-Depth      |
+| GUI                         | ✅                                                    | ✅             |
+| Sniffing                    | ✅                                                    | ✅             |
+| Handling PCAPS              | ✅                                                    | ✅             |
+| OS Fingerprinting           | ✅                                                    | ❌             |
+| Parameter/Keyword Discovery | ✅                                                    | Manual        |
+| Credential Discovery        | ✅                                                    | ✅             |
+| File Extraction             | ✅                                                    | ✅             |
+| Filtering Options           | Limited                                              | ✅             |
+| Packet Decoding             | Limited                                              | ✅             |
+| Protocol Analysis           | ❌                                                    | ✅             |
+| Payload Analysis            | ❌                                                    | ✅             |
+| Statistical Analysis        | ❌                                                    | ✅             |
+| Cross-Platform Support      | ✅                                                    | ✅             |
+| Host Categorisation         | ✅                                                    | ❌             |
+| Ease of Management          | ✅                                                    | ✅             |
 
 Resources
 [https://www.netresec.com/?page=Blog&month=2011-09&post=Pcap-over-IP-in-NetworkMiner](https://www.netresec.com/?page=Blog&month=2011-09&post=Pcap-over-IP-in-NetworkMiner)  
@@ -104,7 +106,7 @@ https://www.gavinhollinger.com/2016/10/pcap-over-ip-to-networkminer.html
 
 - rpcinfo (portmapper
 
- ![[rpcinfo.png]]
+ ![[_attachments/rpcinfo.png]]
 
 ## netcat
 
@@ -139,7 +141,7 @@ Capabilities
 
 Transferring Files using Netcat
 
-![[netcat-ft.png]]
+![[_attachments/netcat-ft.png]]
 
 ---
 <div style="text-align: center;">

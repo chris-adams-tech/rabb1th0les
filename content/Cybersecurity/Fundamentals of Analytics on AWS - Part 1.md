@@ -8,6 +8,8 @@ tags:
   - security-engineer
   - certs
 title: Fundamentals of Analytics on AWS - Part 1
+type: Technical Guide
+topic: AWS
 ---
 *Information is sourced from AWS Skill builder course*
 

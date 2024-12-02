@@ -2,12 +2,13 @@
 Owner: Chris Adams
 date: 2024-10-25
 edited: 
-layout: new_page
 tags:
   - windows
   - active-directory
   - windows-services
-draft:
+draft: 
+type: Installation Guide
+topic: Analysis Tools
 ---
 SilkETW is a powerful tool for monitoring and analyzing Windows Event Tracing for Windows (ETW) logs, which can provide insights into various activities within a Windows environment.
 
@@ -27,7 +28,7 @@ SilkETW is a powerful tool for monitoring and analyzing Windows Event Tracing fo
 
 
 If Microsoft .NET Framework is already at 4.5, you will see this upon installation:
-![[silketw2.png]]
+![[_attachments/silketw2.png]]
 
 <div class="neon-line"></div>
 
@@ -43,7 +44,7 @@ Here is the command syntax below:
 xfreerdp /u:<username> /p:<password> /v:<ip-address> /drive:<path/to/folder/to/share> /dynamic-resolution
 ```
 
-![[silketw4.png]]
+![[_attachments/silketw4.png]]
 
 This makes it much easier for file sharing and getting programs or needed software onto the machine, without having to have a connection to the internet.
 
@@ -62,12 +63,12 @@ I've extracted the SilkETW zip file into a new folder in the `C:\Tools\Silk` dir
  .\Silketw.exe
 ```
 
-![[silketw.png]]
+![[_attachments/silketw.png]]
 
 
 After executing, you should see an output like below.
 
-![[silketw1.png]]
+![[_attachments/silketw1.png]]
 
 # Installing the Service
 
@@ -90,7 +91,7 @@ sc create SilkService binpath= "C:\\Tools\\Silk\\SilkService.exe"
 
 ```
 
-![[silketw5.png]]
+![[_attachments/silketw5.png]]
 
 
 Now, let's check which Event Trace sessions are already enabled by default.
@@ -100,7 +101,7 @@ Now, let's check which Event Trace sessions are already enabled by default.
 logman -ets
 ```
 
-![[silketw3.png]]
+![[_attachments/silketw3.png]]
 
 
 ### To query all providers
@@ -123,7 +124,7 @@ $ETWProviders | Where-Object { $_ -Like "*Security*" }
 This returns the providers that match the string `Security`
 
 
-![[etw.png]]
+![[_attachments/etw.png]]
 
 #### Find more information about a provider
 
@@ -133,13 +134,13 @@ logman query providers "Security: KDC"
 ```
 
 
-![[etw1.png]]
+![[_attachments/etw1.png]]
 
 
 Or another example with the NTLM Authentication provider
 
 
-![[etw3.png]]
+![[_attachments/etw3.png]]
 
 
 Here are some key providers that I will begin focusing on. This seems to be a good starting point for capturing Kerberos related events.
@@ -159,7 +160,7 @@ logman query "EventLog-System" -ets
 ```
 
 
-![[etw4.png]]
+![[_attachments/etw4.png]]
 
 # Adding LDAP Logging in GUI
 
@@ -310,11 +311,11 @@ In the second clause, you'll see a GUID value in between two brackers `{}`. From
 
 Checks seem to be successful, however, we will take a further look and see if they are in fact enabled
 
-![[etw6.png]]
+![[_attachments/etw6.png]]
 
 If we run a `logman -ets` we can see that the *SilkETWTrace* is running!
 
-![[etw7.png]]
+![[_attachments/etw7.png]]
 
 ### Step 2: Configure SilkETW for Monitoring
 
@@ -464,13 +465,6 @@ Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-Sysmon/Operational'; 
 ### Conclusion
 
 Using SilkETW to monitor ETW logs can significantly enhance your ability to detect DCSync, Golden Ticket, and Kerberoasting attacks. By focusing on specific event IDs and configuring SilkETW appropriately, you can gain valuable insights into potential malicious activities within your Windows environment. Regular monitoring and analysis are crucial for maintaining security and responding to threats effectively.
-
-
----
-
-Thanks for taking the time to read through my content. If you enjoy this type of content, check back here for more updates. 
-
-Peace ✌️
 
 #### Created on: Nov 03, 2024
 ---

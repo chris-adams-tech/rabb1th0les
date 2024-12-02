@@ -73,7 +73,7 @@ In the ever-evolving digital landscape, the DNS remains a crucial component, act
 [5] [https://stackoverflow.com/questions/48134705/the-process-of-dns-lookup](https://stackoverflow.com/questions/48134705/the-process-of-dns-lookup)
 
 
-![[config/layouts/generated_ai]]
+![[_config/templates/create/generated_ai]]
 
 ---
 <div style="text-align: center;">

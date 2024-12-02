@@ -1,6 +1,8 @@
 ---
 date: 2024-10-27
 title: Breakdown of Suspicious Windows Services
+type: Technical Guide
+topic: Windows Services
 ---
 # What are Windows Services?
 <div class="neon-line"></div>
@@ -43,7 +45,7 @@ Services can be both a blessing and a curse for security. They're like having do
 Think of services like employees in your digital company - you want to keep tabs on who's working for you and make sure they're not secretly working for someone else! 
 
 ## It is equally as important to monitor these Windows Services, check out why below:
-[[quartz/content/Cybersecurity/Reasons you might want to monitor Windows Services]]
+[[Reasons you might want to monitor Windows Services]]
 
 # Understanding the Process of a New Service Installation
 

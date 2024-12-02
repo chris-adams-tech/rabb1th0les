@@ -187,18 +187,7 @@ This scenario demonstrates the unique challenges posed by AI-driven phishing cam
 
 <div class="neon-line"></div>
 
-Thanks for taking the time to read through my content. If you enjoy this type of content, check back here for more updates. 
-
-Peace ✌️
-
 #### Created on: Nov 13, 2024
-
-
-<div class="neon-line"></div>
-
-Thanks for taking the time to read through my content. If you enjoy this type of content, check back here for more updates. 
-
-Peace ✌️
 
 ---
 <div style="text-align: center;">

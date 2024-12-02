@@ -173,13 +173,6 @@ This is a structured investigation flow for a comprehensive analysis of the inci
    - **Reset Passwords and Clear Cached Credentials**: Reset the passwords for all accounts accessed by `ITSupport01` and clear cached credentials across endpoints.
    - **Purge Cached NTLM Hashes**: For affected hosts, clear cached credentials to prevent reuse of
 
-
-<div class="neon-line"></div>
-
-Thanks for taking the time to read through my content. If you enjoy this type of content, check back here for more updates. 
-
-Peace ✌️
-
 #### Created on: Nov 12, 2024
 ---
 <div style="text-align: center;">

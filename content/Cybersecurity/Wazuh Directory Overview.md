@@ -1,7 +1,8 @@
 ---
-cssclasses: 
 title: Wazuh Directory Overview
 date: 2024-10-12
+type: Installation Guide
+topic: Open-source SIEM
 ---
 
 List of files and directories for making any adjustments to integrations

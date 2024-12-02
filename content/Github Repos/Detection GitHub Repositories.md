@@ -204,7 +204,7 @@ It is an extremely powerful open-source detection tool and IDS/IPS engine. It ca
 
 ### Architecture
 
-![[zeek.png]]
+![[_attachments/zeek.png]]
 
 ### Frameworks
 

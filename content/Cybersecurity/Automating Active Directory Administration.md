@@ -8,6 +8,8 @@ tags:
   - powershell
 cssclasses: 
 title: Automating Active Directory Administration
+type: Technical Guide
+topic: Active Directory
 ---
 In this page, we will dive into some helpful `Powershell` commands to automate and be efficient with administration.
 
@@ -77,12 +79,6 @@ get-aduser -filter * | more
 
 
 Source: LinkedIn Learning: Advanced PowerShell: Automating Active Directory Administration - Robert McMillen
-
-<div class="neon-line"></div>
-
-Thanks for taking the time to read through my content. If you enjoy this type of content, check back here for more updates. 
-
-Peace ✌️
 
 #### Created on: Nov 19, 2024
 ---

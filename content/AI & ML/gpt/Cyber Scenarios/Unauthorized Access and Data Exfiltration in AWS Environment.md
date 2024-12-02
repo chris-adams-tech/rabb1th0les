@@ -183,10 +183,6 @@ Here’s a structured investigation approach for analyzing this AWS security inc
 
 <div class="neon-line"></div>
 
-Thanks for taking the time to read through my content. If you enjoy this type of content, check back here for more updates. 
-
-Peace ✌️
-
 #### Created on: Nov 12, 2024
 ---
 <div style="text-align: center;">

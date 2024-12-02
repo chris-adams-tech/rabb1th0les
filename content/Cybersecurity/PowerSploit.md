@@ -1,6 +1,8 @@
 ---
 date: 2024-10-24
 title: PowerSploit
+type: AI Generated
+topic: Pentesting
 ---
 
 https://github.com/PowerShellMafia/PowerSploit/tree/dev/Recon

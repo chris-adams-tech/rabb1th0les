@@ -5,6 +5,8 @@ tags:
   - pentesting
 draft: true
 title: Free Tools for Security Investigation
+type: Reference
+topic: Tools
 ---
 Source: https://app.letsdefend.io/training/lesson_detail/free-tools-use
 

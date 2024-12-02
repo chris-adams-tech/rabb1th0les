@@ -1,6 +1,8 @@
 ---
 title: DMARC, DKIM, SPF
 date: 2024-11-21
+type: Technical Guide
+topic: DNS
 ---
 # DKIM & SPF
 
@@ -44,7 +46,7 @@ date: 2024-11-21
 * All of the records mentioned above are stored in the `DNS` server (**publicly available**)
 * `DNS` also stores many other types of records; `CNAME`, `A records`, `AAAA records`, `PTR records` (**reverse DNS lookups**).
 * Records are all kept as `DNS TXT records`.
-	* These records can contain any arbitrary text, which is commonly an attack vector. See this page for more information: [[quartz/content/Cybersecurity/Abusing DNS Text Records]]
+	* These records can contain any arbitrary text, which is commonly an attack vector. See this page for more information: [[Abusing DNS Text Records]]
 
 <div class="neon-line"></div>
 

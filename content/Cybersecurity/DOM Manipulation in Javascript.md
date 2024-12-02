@@ -1,6 +1,8 @@
 ---
 date: 2024-11-21
 title: DOM Manipulation in Javascript
+type: Technical Guide
+topic: Web Apps
 ---
 
 <div class="neon-line"></div>

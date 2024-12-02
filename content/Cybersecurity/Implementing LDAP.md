@@ -1,10 +1,10 @@
 ---
 Owner: Chris Adams
 title: Implementing LDAP
-type: 
-topic: 
+type: Technical Guide
+topic: Active Directory
 date: 2024-11-26
-tags: []
+tags: 
 draft: true
 reference:
 ---

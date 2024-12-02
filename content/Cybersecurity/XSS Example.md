@@ -1,6 +1,8 @@
 ---
 title: XSS Example
 date: 2024-11-20
+type: Technical Guide
+topic: Web-Based
 ---
 
 

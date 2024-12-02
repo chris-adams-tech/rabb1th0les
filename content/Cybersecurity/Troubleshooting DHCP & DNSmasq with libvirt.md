@@ -8,6 +8,8 @@ tags:
   - Virtualization/virt-manager
   - Virtualization/kvm
   - networking
+type: Technical Guide
+topic: Virtualization
 ---
 
 When trying to assign static IP addresses or having multiple NIC's on a virtual machine can get rather tricky. This is because libvirt has it's own DHCP server and uses DNSmasq, which routes DNS requests with the main host, rather than the vm making the calls.

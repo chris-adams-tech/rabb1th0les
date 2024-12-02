@@ -1,9 +1,16 @@
 ---
 Owner: Chris Adams
-date: 
-edited: 
-tags: 
-draft:
+date: 2024-03-05
+tags:
+  - active-directory
+  - analysis/event-logs
+  - analysis/sysmon
+  - detectionengineering
+  - labs
+  - threat-hunting
+draft: 
+type: Technical Guide
+topic: Active Directory
 ---
 # A bit about this project
 <div class="neon-line"></div>
@@ -96,11 +103,11 @@ ssh wazuh@<wazuh-ip>
 
 Now, I connected with a bash shell prompt into the virtual machine. This makes it much easier for running commands to install the Wazuh server. In my case, I did not install the GUI since it is not needed in this setup.
 
-![[wazuh 1.png]]
+![[_attachments/wazuh 1.png]]
 
 Notice the username is now at the Wazuh server and if you run `ip a` it will confirm we are in the virtual machine.
 
-![[wazuh1.png]]
+![[_attachments/wazuh1.png]]
 # Installing Wazuh via quick install
 
 *Install Wazuh in a quick installation, run the command below
@@ -110,7 +117,7 @@ curl -sO https://packages.wazuh.com/4.8/wazuh-install.sh && sudo bash ./wazuh-in
 ```
 
 The output will look similar to below.
-![[wazuh2.png]]
+![[_attachments/wazuh2.png]]
 
 1. Once finished, the password will be displayed in the output.
 2. To access the web interface, go to `https://<wazuh-dashboard-ip>` on your host machine, using the credentials from the output in the last step.
@@ -119,7 +126,7 @@ If you are doing this on Libvirt, to set the IP address to static, add the MAC a
 
 First, grab the MAC and IP address from the libvirt interface.
 
-![[Screenshot from 2024-10-25 13-43-28 2.png]]
+![[_attachments/Screenshot from 2024-10-25 13-43-28 2.png]]
 
 
 The DHCP leases can be verified with the following command:
@@ -130,7 +137,7 @@ sudo virsh net-dhcp-leases labz
 
 Then, add this in the XML file
 
-![[Screenshot from 2024-10-25 13-45-42 1.png]]
+![[_attachments/Screenshot from 2024-10-25 13-45-42 1.png]]
 
 After the MAC address is added, the network will need to be stopped then restarted. This can be done on the interface, or by running the following:
 
@@ -144,7 +151,7 @@ sudo virsh net-start labz
 > You'll notice that I have this device connected to the internet via NAT. I am using a dual NIC, which essentially has a management interface to install Wazuh and other files. The other interface is a "Routed" network that allows the forwarding of logs to the Wazuh server. Once I begin testing I remove this interface.
 
 
-![[wazuh7.png]]
+![[_attachments/wazuh7.png]]
 
 Then, a login screen will appear, where you can enter in the credentials “admin” and the password that was generated with the installation.
 
@@ -153,7 +160,7 @@ Then, a login screen will appear, where you can enter in the credentials “admi
 > This password can be changed but requires a few steps to sync the API and other backend passwords. 
 
 Once connected, you should have landed on a page like this:
-![[wazuh9 2.png]]
+![[_attachments/wazuh9 2.png]]
 
 The basic Wazuh server is now set up and after this, I began setting up the Active Directory server. We will come back to this machine in a few steps.
 
@@ -171,16 +178,16 @@ You may have to enter your information in order to get the link to the download.
 ### Installation steps
 
 1. **Choose Windows Server 2022 Standard Evaluation (Desktop Experience)**
-![[sc-ms-os-setup.png]]
+![[_attachments/sc-ms-os-setup.png]]
 
 2. **Choose ‘Custom: Install Microsoft Server Operating System’**
 
-![[sc-unallocated.png]]
+![[_attachments/sc-unallocated.png]]
 
 3. **Select the ‘Unallocated’ drive**
 
 1. **Change the name of the Computer**
-![[sc-change-computer.png]]
+![[_attachments/sc-change-computer.png]]
 
 (Reboot needed)
   
@@ -219,20 +226,17 @@ Install-ADDSForest -CreateDnsDelegation:$false -DatabasePath "C:\\Windows\\NTDS"
 > This could also be done through an SSH connection and just run the scripts via PuTTy or a terminal window. I did not because OpenSSH does not play nicely from a Linux KVM to Windows machine.  
 ## Sysmon Installation
 
-> [!important]  
-> In this setup, the Swift on Security configuration file was used and also played around with the Wazuh basic rule set  
-  
-Check out the ruleset here: https://github.com/SwiftOnSecurity/sysmon-config
-  ![[sysmon-config.png]]
+Here is the ruleset used: https://github.com/SwiftOnSecurity/sysmon-config
+  ![[_attachments/sysmon-config.png]]
 1. Download the raw xml file in the files below the README.md
 
-![[sysmon-xml.png]]
+![[_attachments/sysmon-xml.png]]
 
 1. Now, download Sysmon from Windows
 
 > https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
 
-![[dl-sysmon 1.png]]
+![[_attachments/dl-sysmon 1.png]]
 
 
 1.  Extract the packages from the Sysmon download
@@ -256,11 +260,11 @@ Check out the ruleset here: https://github.com/SwiftOnSecurity/sysmon-config
 > [!important]  
 > The PowerShell Module logging (Event ID 4104), along with other logging settings, will allow us to capture the full output of the scripts that are being run. Of course, it will be captured on the local machine, then forwarded via Powershell logs to Wazuh.  
 
-![[gpo-dropdown.png]]
+![[_attachments/gpo-dropdown.png]]
 
-![[gpo.png]]
-![[sc-enable-module-logging.png]]
-![[sc-audit-policy.png]]
+![[_attachments/gpo.png]]
+![[_attachments/sc-enable-module-logging.png]]
+![[_attachments/sc-audit-policy.png]]
 # Download the PowerShell script
 
 1. To download directly from GitHub
@@ -275,24 +279,24 @@ wget https://raw.githubusercontent.com/WaterExecution/vulnerable-AD-plus/master/
 
 In the screenshot below are the types of attacks that can be implemented in this lab environment. These may be adjusted by going into the `vulnadplus.ps1` script BEFORE running to adjust to your purposes.
 
-![[Github Repos/img/vulnad.png]]
+![[vulnad.png]]
 
 2. Open the PowerShell file with notepad to adjust the domain name and number of desired users. Be sure to change these settings!!
-![[sc-ps-output.png]]
+![[_attachments/sc-ps-output.png]]
 # Adding the Wazuh Agent to Active Directory Server
 
 1. If you are connected to the internet, you can add an agent from the Overview page on the Wazuh dashboard
 
 Click the “Add agent”
 
-![[wazuh9 1.png]]
+![[_attachments/wazuh9 1.png]]
 
 _This will allow you to generate an agent deploy script for your Active Directory domain controller_
 
 > [!Thought]
 > The copied script may be saved in a text file in order to save for the future for more efficiency.
 
-![[wazuh10.png]]
+![[_attachments/wazuh10.png]]
 
 2. Copy the script into a PowerShell prompt with admin privileges. Ensure that both machines are in the same subnet. This will ensure communication can persist.
 3. After a few moments, the machine appears as "Disconnected" then moves to "Active".
@@ -305,7 +309,7 @@ Once the `.msi` package is downloaded, I moved the file over to the *ad-server* 
 
 After first installing the agent, there will be no communication between the manager and the agent. I'll add in the IP address for the Wazuh server/manager, then export the key from the manager CLI.
 
-![[wazuh3.png]]
+![[_attachments/wazuh3.png]]
 
 The key can be extracted by running the following command. This is also a very helpful for any other agent management related tasks.
 
@@ -313,35 +317,35 @@ The key can be extracted by running the following command. This is also a very h
 sudo /var/ossec/bin/manage_agents
 ```
 
-![[wazuh1 1.png]]
+![[_attachments/wazuh1 1.png]]
 
 First, we'll add the agent
 
-![[wazuh2 1.png]]
+![[_attachments/wazuh2 1.png]]
 
 Run `ipconfig` on the ad-server to verify the IP address to be added in the Wazuh manager CLI
 
-![[wazuh3.png]]
+![[_attachments/wazuh3.png]]
 
 Then, extract the key with the `e` option, confirm the address and name details, and enter the ID #. The key then can be entered into the Wazuh Agent GUI interface
 
-![[wazuh5 1.png]]
+![[_attachments/wazuh5 1.png]]
 
 After confirming the details, I started the service in PowerShell with `NET START Wazuh`
 
-![[wazuh6.png]]
+![[_attachments/wazuh6.png]]
 
 
 Here I confirmed that the service is running in the cmd prompt and the GUI interface
 
-![[wazuh13.png]]
+![[_attachments/wazuh13.png]]
 
 
 Now, let's go see in the Wazuh dashboard and see if it's connected.
 
-![[wazuh7 1.png]]
+![[_attachments/wazuh7 1.png]]
 
-![[wazuh14.png]]
+![[_attachments/wazuh14.png]]
 
 Sweet! Everything looks good, now let's move onto the next steps. 
 
@@ -379,7 +383,7 @@ Sweet! Everything looks good, now let's move onto the next steps.
 </localfile>
 ```
 
-![[wazuh8.png]]
+![[_attachments/wazuh8.png]]
 
 > [!NOTE]  
 > Additional event channels can also be added by using the format below:
@@ -393,7 +397,7 @@ Sweet! Everything looks good, now let's move onto the next steps.
 
 Once the adjusts are made, restart the Wazuh agent
 
-![[wazuh9 3.png]]
+![[_attachments/wazuh9 3.png]]
 ## Options for configuring Windows Event Channels in Wazuh
 
 ```XML
@@ -446,9 +450,9 @@ I used the ruleset that was provided by Wazuh in this article: https://wazuh.com
 
 At first, I was capturing the Golden ticket attacks no problem, but then noticed there was no output in the SIEM. I made a few adjustments in the `local_rules.xml` and was able to successfully capture 
 
-![[wazuh12.png]]
+![[_attachments/wazuh12.png]]
 
-![[wazuh15.png]]
+![[_attachments/wazuh15.png]]
 # User and Agent Management
 
 ## Creating users in Wazuh dashboard

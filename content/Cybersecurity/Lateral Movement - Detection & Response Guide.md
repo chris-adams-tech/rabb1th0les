@@ -1,6 +1,8 @@
 ---
 title: Lateral Movement - Detection & Response Guide
 date: 2024-11-14
+type: Technical Guide
+topic: Attack Patterns
 ---
 ## Common Techniques & Tools
 

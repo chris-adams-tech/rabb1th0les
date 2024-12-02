@@ -123,10 +123,6 @@ This scenario required identifying the relevant alerts related to `FIN-SERVER01`
 
 <div class="neon-line"></div>
 
-Thanks for taking the time to read through my content. If you enjoy this type of content, check back here for more updates. 
-
-Peace ✌️
-
 #### Created on: Nov 13, 2024
 ---
 <div style="text-align: center;">
