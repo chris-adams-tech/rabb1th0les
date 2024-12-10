@@ -3,7 +3,7 @@ Owner: Chris Adams
 date: 2024-11-22
 tags:
   - pentesting
-draft: true
+draft: false
 title: Free Tools for Security Investigation
 type: Reference
 topic: Tools

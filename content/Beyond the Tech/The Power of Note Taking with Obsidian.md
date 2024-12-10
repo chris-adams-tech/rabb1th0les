@@ -7,7 +7,7 @@ date: 2024-12-01
 tags:
   - obsidian
   - note-taking
-draft: true
+draft: false
 reference:
 ---
 In our information driven society, it's as crucial as ever to be able to effectively take notes. Notes help us to retain information, whether that be in the action of taking the note, or revisiting at a later time to review. We've come a long way since taking a pen to piece of paper in that metal spiral notebook that we all remember so well.

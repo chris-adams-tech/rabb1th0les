@@ -2,7 +2,7 @@
 date: 2024-10-24
 cssclasses: 
 type: blog
-draft: true
+draft: false
 tags:
   - status/wip
 ---

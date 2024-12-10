@@ -4,7 +4,7 @@ date: 2024-11-11
 edited: 
 layout: new_page
 tags: 
-draft: true
+draft: false
 ---
 In this writeup, I'll be covering the *Skills Assessment* for **Detecting Windows Attacks with Splunk** in the **SOC Analyst** path in HacktheBox.
 

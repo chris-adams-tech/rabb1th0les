@@ -6,7 +6,7 @@ topic: Goals & Habits
 date: 2024-11-30
 tags:
   - productivity
-draft: true
+draft: false
 reference:
 ---
 # 1. Categorize Your Goals:

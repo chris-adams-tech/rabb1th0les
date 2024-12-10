@@ -6,7 +6,7 @@ topic: Templates
 date: 2024-12-10
 tags:
   - lifestyle
-draft: true
+draft: false
 reference:
 ---
 Obsidian's capabilities are seeming to be endless. It can be used as basic as you want or as simple. That is what I love about this application. For me it has been a learning tool. Features such as the *Live Preview* help me to understand what code does in real time. Using the *metadata* in the properties helps me understand `yaml` formatting, as well as understanding data science for management at scale. This led me to creating a system for tracking habits and goal setting. 

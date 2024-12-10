@@ -6,7 +6,7 @@ topic: Emerging Threats
 date: 2024-12-10
 tags:
   - cybersecurity/threat-hunting
-draft: true
+draft: false
 reference:
 ---
 In the cybersecurity industry, it can be easy to fall behind on the expanding technology with AI/ML being so heavily integrated into nearly every piece of software and application these days. Things are changing at a rapid pace and in my opinion, for good reason. It allows us humans, to be able to reduce redundant tasks, thus allowing for more creativity. Where tech used to be the straight forward and logical, with AI being more creative allows for expansion like we could have never have conceived of. 
