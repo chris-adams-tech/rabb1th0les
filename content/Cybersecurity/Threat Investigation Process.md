@@ -6,7 +6,7 @@ topic: SOC Operations
 date: 2024-11-30
 tags:
   - cybersecurity/Blue-Team
-draft: true
+draft: false
 reference:
 ---
 ## **Introduction**

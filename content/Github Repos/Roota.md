@@ -6,7 +6,7 @@ tags:
   - cybersecurity/detectionengineering
   - cybersecurity/yara
   - cybersecurity/sigma
-draft: true
+draft: false
 date: 2024-11-11
 ---
 
